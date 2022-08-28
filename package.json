@@ -1,0 +1,19 @@
+{
+  "name": "rename.js",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "KiHanLee",
+  "license": "MIT",
+  "scripts": {
+    "build": "pkg ./app.js -t node16-win-x64 -o ./dist/app"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "minimist": "^1.2.6",
+    "music-metadata": "7.11.8"
+  },
+  "type": "commonjs"
+}
